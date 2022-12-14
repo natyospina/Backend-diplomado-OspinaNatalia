@@ -1,4 +1,4 @@
 "# Backend-diplomado-OspinaNatalia" 
 # Backend-diplomado-OspinaNatalia
-## subtitulo
-### pequeño
+## Requerimientos minímos
+### Ejecución

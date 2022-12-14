@@ -24,7 +24,7 @@ import static lombok.AccessLevel.PRIVATE;
         String descripcion;
 
         //Si quiero llevar un registro de quién creó este registro
-        @ManyToOne
+        @ManyToOne(fetch = FetchType.LAZY)
         @JoinColumn(name = "usuarios_id")
         Usuario usuario;
     }

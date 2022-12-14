@@ -1,9 +1,10 @@
 package no.edu.iudigital.helpmeiud.repository;
 
-import no.edu.iudigital.helpmeiud.model.Caso;
+
+import no.edu.iudigital.helpmeiud.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IcasoRepository extends JpaRepository<Caso, Long> {
+public interface IroleRepository extends JpaRepository<Role, Long>{
 }
